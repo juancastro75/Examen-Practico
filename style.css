@@ -1,0 +1,72 @@
+/* Paginas de Ayuda 
+  https://getbootstrap.com/docs/4.0/getting-started/introduction/
+  https://www.dariobf.com/centrar-img-imagen-html-con-css/
+
+*/
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Nunito",sans-serif;
+  background-image: url('./img3.jpg');
+}
+
+.container text-center py-5, h1{
+  color:white;
+}
+
+.container text-center py-5, h3{
+  color: white;
+}
+
+.input{
+  text-align: center;
+  margin: 100px auto;
+}
+
+input[type="submit"]{
+  padding: 15px 30px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 1px;
+  font-family: "Nunito",sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.input input[type="text"]{
+  width: 600px;
+  height: 55px;
+  padding: 5px 10px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 1px;
+  font-family: "Nunito",sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.col-4{
+  background:  #e7e7e700;
+  color: white;
+}
+
+.col-4 h4{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 25spx;
+}
+
+.col-4 h2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.col-4 .icon img{
+  display:block; 
+  margin:0 auto;
+}

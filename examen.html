@@ -1,0 +1,51 @@
+<!-- Paginas de Ayuda
+  https://getbootstrap.com/docs/4.0/getting-started/download/
+  https://www.youtube.com/watch?v=59pex8k8Xr8
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="stylesheet" href="./Bootstrap/css/bootstrap.min.css">
+    <title>Climate Online</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="container text-center py-5">
+      <h1>Buscador de temperaturas actuales en la republica mexicana</h1>
+      <h3>Ingrese en la casa de texto el nombre de la Ciudad</h3>
+      <div class="input">
+        <input type="text" placeholder="Ciudad" id="inputValue">
+        <input type="submit" value="Buscar" id="buscar">
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <br><br>
+          <h4 id="temp_min"></h4>
+        </div>
+        <div class="col-4">
+          <h2 class="name" id="name"></h2>
+          <h4 id="desc"></h4>
+          <h4 id="temp"></h4>
+          <div class="icon" id="icon">
+          </div>
+        </div>
+        <div class="col-4">
+          <br><br>
+          <h4 id="temp_max"></h4>
+        </div>
+      </div>
+    </div>
+    <script src="dataViewer.js"></script>
+    <script src="ApiWeatherCall.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="./Bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
